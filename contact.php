@@ -143,57 +143,17 @@ session_start();
         </div>
 
         <div class="row justify-content-center">
-          <h1 class="text-center mb-4">Please enter the details!!</h1>
 
-          <?php
-          // if (!empty ($_SESSION["Global_Message"])) {
-          //   $_SESSION["Global_Message"] = "";
-          ?>
-          <!-- <div class="col-lg-12">
-              <div class="alert alert-success" role="alert">
-                Your message has been submited. We'll get back to you!
-              </div>
-            </div> -->
-          <?php
-          // }
-          ?>
+        
+          
 
           <div class="col-lg-8">
-            <form id="contactForm" method="post" action="sendmail.php" onsubmit="return validateContactForm()"
-              autocomplete="off">
-              <div class="row g-3 position-relative">
+              <h1 class="mb-3">Get in Touch</h1>
+              
+              <p>We’d love to hear from you—whether you have a question, need technical support, or want to explore collaboration opportunities. Feel free to reach out directly via email, and we’ll get back to you as soon as possible.</p>
+              <h5>Email: <strong>info@pixelew.com</strong></h5>
+              <p>Your message matters to us, and we're here to help.</p>
 
-                <div class="col-sm-6">
-                  <input type="text" class="form-control px-4" id="name" name="name" placeholder="Enter Name" required>
-                </div>
-
-                <div class="col-sm-6">
-                  <input class="form-control px-4" id="mobile" name="mobile" maxlength="10" type="tel"
-                    placeholder="Enter Mobile" required>
-                </div>
-
-                <div class="col-sm-12">
-                  <input type="email" class="form-control px-4" id="email" name="email" placeholder="Enter Email"
-                    required>
-                </div>
-
-                <div class="col-sm-12">
-                  <textarea minlength="40" id="message" name="message" class="form-control px-4 py-3" rows="4"
-                    placeholder="Type your Message..." required></textarea>
-                </div>
-
-                <div class="g-recaptcha brochure__form__captcha"
-                  data-sitekey="6Ldl4rYpAAAAAKkC8ozkUt-rrpjwZMZGU0mQcJbX"></div>
-
-                <div class="col-sm-12">
-                  <button class="btn btn-outline-dark text-uppercase jump border-inner1 w-100" type="submit"
-                    name="submit">SUBMIT</button>
-                </div>
-
-
-
-              </div>
-            </form>
           </div>
         </div>
       </div>
