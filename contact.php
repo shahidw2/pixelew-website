@@ -24,7 +24,7 @@ session_start();
   <header class="sticky-top">
     <nav class="navbar navbar-expand-lg p-0">
       <div class="container">
-        <a class="navbar-brand p-0" href="./"><img src="./images/logo-light.jpg" alt=""></a>
+        <a class="navbar-brand p-0" href="./"><img src="./images/logo.svg" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -81,7 +81,7 @@ session_start();
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.php">Contact </a>
+              <a class="nav-link" href="contact.html">Contact </a>
             </li>
           </ul>
         </div>
