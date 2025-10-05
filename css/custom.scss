@@ -277,7 +277,8 @@ header {
 
 
   .card-title {
-    font-size: 72px;
+    font-size: 92px;
+    font-weight: bolder;
 
     @include media-breakpoint-down(md) {
       font-size: 32px;
@@ -307,6 +308,7 @@ header {
 .bottom_carousal {
   color: $white;
   background-color: $grays;
+  display: none;
 
   img {
     max-width: 120px;
@@ -546,7 +548,7 @@ header {
   position: relative;
 
   &::after {
-    content: url(../images/din-full.svg);
+    // content: url(../images/din-full.svg);
     width: 98%;
     position: absolute;
     opacity: 0.02;
